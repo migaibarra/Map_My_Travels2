@@ -12,6 +12,9 @@ This is a new version of my passion project called *Map My Travels* a web app th
 |**Database**      | PostgreSQL  |
 |**Testing Env**   | Rspec       |
 
+## Database Schema
+![Project Schema](/MapMyTravels_schema.png)
+
 ## Further Information
 
 Please contact miggs.ibarra@gmail.com for more information about this project.
