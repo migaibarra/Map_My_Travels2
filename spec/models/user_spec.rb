@@ -52,5 +52,9 @@ RSpec.describe User, type: :model do
       user_example.password_hash = ""
       expect(user_example).to_not be_valid
     end
+
+    it 'is valid with all fields inputed' do
+      expect(user_example).to be_valid
+    end
   end
 end
