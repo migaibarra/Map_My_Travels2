@@ -2,6 +2,8 @@ class User < ApplicationRecord
   require 'bcrypt'
   include BCrypt
 
+  has_and_belongs_to_many :places
+
   validates :first_name, :last_name, :email, :password_hash, presence: true
   validates :email, uniqueness: true, format: { with: /\A[^@\s]+@[^@\s]+\z/, message: 'Not proper email format'}
 
